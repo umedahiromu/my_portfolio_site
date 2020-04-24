@@ -34,9 +34,29 @@ $("#second_picture").click(function(){
 
 $("#third_picture").click(function(){
   if($("#third_detail").css("display") == "none"){
-     $(".detail_content").css("display","none");
-  $("#third_detail").toggle();
+    $(".detail_content").css("display","none");
+    $("#third_detail").toggle();
   } else {
     $("#third_detail").css("display","none");
   }
 });
+
+$("#pc_picture").click(function(){
+  if($(".isara_sample_picture1").css("display") == "none"){
+    $(".isara_sample_picture2").css("display","none");
+    $(".isara_sample_picture1").toggle();
+  } else {
+    $(".isara_sample_picture1").css("display","none");
+  }
+  return false;
+});
+
+$("#mobile_picture").click(function(){
+  if($(".isara_sample_picture2").css("display") == "none"){
+    $(".isara_sample_picture1").css("display","none");
+    $(".isara_sample_picture2").toggle();
+  } else {
+    $(".isara_sample_picture2").css("display","none");
+  }
+  return false;
+})
