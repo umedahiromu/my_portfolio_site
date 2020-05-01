@@ -535,7 +535,14 @@ nav {
   }
   
   .twitter_button {
-    font-size : 1.1em;
+    font-size : 1.0em;
     width : 40%;
+  }
+}
+
+@media screen and (max-width:600px){
+  .twitter_button {
+    font-size : 0.9em;
+    width : 50%;
   }
 }
