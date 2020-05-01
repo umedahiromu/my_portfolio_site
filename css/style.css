@@ -479,6 +479,8 @@ nav {
 }
 
 .contact_sub {
+  width : 80%;
+  margin : 0 auto;
   font-size : 1.3em;
   text-align : center;
   padding-bottom : 30px;
