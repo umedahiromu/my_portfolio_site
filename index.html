@@ -10,7 +10,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light pt-4 pb-4 fixed-top shadow">
       <a class="navbar-brand" href="">Hiromu Umeda's Portfolio</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button id="nav_button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -47,11 +47,12 @@
           </div>
           <div class="about_contents_intro col-lg-6">
             <ul>
-              <li>名前:Hiromu Umeda</li>
-              <li>出身:愛知県（現在も在住）</li>
-              <li>学歴:名古屋大学理学部数理学科（在学中、現三年）</li>
-              <li>その他:2020年２月からプログラミングを始め、アプリを作ることに楽しさを感じ始めた。
-              大学二年の春休みの大半の時間をプログラミングに費やし、プロのエンジニアになるために現在もプログラミングを猛勉強中。</li>
+              <li>名前 : Hiromu Umeda</li>
+              <li>出身 : 愛知県（現在も在住）</li>
+              <li>学歴 : 名古屋大学理学部数理学科（在学中、現三年）</li>
+              <li>趣味 : テニス</li>
+              <li>その他 : 2020年２月からプログラミングを始め、アプリを作ることに楽しさを感じ始めた。
+              大学二年の春休みの大半の時間をプログラミングに費やし、簡潔に伝わりやすいコーディングを目指しています。</li>
             </ul>
           </div>
         </div>
@@ -282,7 +283,7 @@
                 </p>
               </div>
             </div>
-            <div class="detail_time">DM
+            <div class="detail_time">
               <div class="detail_time_time">
                 <p>所要期間</p>
               </div>
@@ -298,7 +299,10 @@
                 <p>
                   普段テニスをする時に、たまには普段と違う相手と練習または練習試合などをしたいと思うことが多いが、
                   相手を探すのに苦労していたので、同じ悩みを持った人も多いと思い、
-                  テニス仲間探しに特化したマッチングアプリを作りました。
+                  テニス仲間探しに特化したマッチングアプリを作りました。<br>
+                  パソコンよりもスマホで使用する機会が多いと思ったためにレスポンシブデザインを実現し、メッセージのやり取りをする以上、
+                  リアルタイム性が必須だと感じ、actioncableを用いたチャット機能を実装しました。見た目の美しさよりは見やすさや使いやすさを中心に考えて
+                  その他機能を実装しました。
                 </p>
               </div>
             </div>
@@ -483,7 +487,8 @@
               </div>
               <div class="detail_add_name">
                 <p>
-                  このサイトです。テンプレートは使わず、１から作りました。
+                  このサイトです。テンプレートは使わず、１から作りました。<br>
+                  お伝えしたい情報を伝わりやすい形でまとめることを意識して作成しました。
                 </p>
               </div>
             </div>
