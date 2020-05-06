@@ -402,6 +402,23 @@ nav {
   width : 80%;
 }
 
+.detail_later {
+  display : table;
+  width : 100%;
+  padding : 15px 0;
+  border-bottom : 1px solid #CCCCCC;
+}
+
+.detail_later_later {
+  display : table-cell;
+  width : 20%;
+}
+
+.detail_later_name {
+  display : table-cell;
+  width : 80%;
+}
+
 .isara_sample_picture1 {
   width : 70%;
   margin : 20px auto;
